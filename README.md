@@ -13,9 +13,6 @@ typedef struct Block {
     struct Block *psuiv;
     struct Block *pavant;
 } block;
-```
-
----
 
 ## 🚀 Tasks to Complete  
 
