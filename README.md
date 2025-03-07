@@ -8,12 +8,11 @@ Doubly linked lists are data structures where each node has:
 - A `previous` pointer pointing to the previous node.  
 
 ### 📌 List Structure in C  
-
-typedef struct Block {
-int data;               
-struct Block *psuiv;    
-struct Block *pavant;   
-}block;
+**typedef struct Block {**
+**int data;**               
+**struct Block *psuiv;**    
+**struct Block *pavant;**   
+**}block;**
 
 ## 🚀 Tasks to Complete  
 
