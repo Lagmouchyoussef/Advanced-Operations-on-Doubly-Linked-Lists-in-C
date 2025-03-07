@@ -10,10 +10,10 @@ Doubly linked lists are data structures where each node has:
 ### 📌 List Structure in C  
 
 typedef struct Block {
-    int data;               
-    struct Block *psuiv;    
-    struct Block *pavant;   
-} block;
+int data;               
+struct Block *psuiv;    
+struct Block *pavant;   
+}block;
 
 ## 🚀 Tasks to Complete  
 
