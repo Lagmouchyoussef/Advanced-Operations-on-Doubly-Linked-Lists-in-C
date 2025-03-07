@@ -28,47 +28,8 @@ typedef struct Block {
 10. A function `block* eclater_pos_neg(block* tete)` that receives a list and splits it into two doubly linked lists:  
     - One containing positive values.  
     - One containing negative values.  
-
-#### 📌 **Figure 1: Splitting the List**  
-## Figure 1: List Grouping
-
-The original list is split into two separate lists: one for positive values and one for negative values.
-
-### Original List:
-```plaintext
-head
-2   -5   -9   9  15
-NULL
-NULL
-Positive Values:
-head
-2   9   15
-NULL
-NULL
-
-Negative Values:
-head
--5   -9
-NULL
-NULL
-
-
 11.  
     A. A function `int liste_est_triee(block* liste)` that returns `1` if the list is sorted, otherwise `0`.  
     B. A function `block* tri_fusion(block* t1, block* t2)` that takes two sorted doubly linked lists and merges them into a single sorted list.  
-
-#### 📌 **Figure 2: Merge Sort**  
-
-Two sorted lists are merged into a single sorted list.
-
-### Input Lists:
-```plaintext
-List 1:
-3   27   38   43
-
-List 2:
-9   10   82
-
-3   9   10   27   38   43   82
 
 12. **Test all these functions in the `main()` program.**  
